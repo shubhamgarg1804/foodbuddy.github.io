@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>Material Design for Bootstrap</title>
+  <!-- MDB icon -->
+  <link rel="icon" href="img/Favicon/favicon.png" type="image/x-icon" />
+  <!-- Font Awesome -->
+  <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"> -->
+  <link rel="stylesheet" href="fonts/font-awesome.min.css" />
+  <!-- Google Fonts Roboto -->
+  <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" /> -->
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <!-- Material Design Bootstrap -->
+  <link rel="stylesheet" href="css/mdb.min.css" />
+  <!-- Your custom styles (optional) -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Start your project here-->  
+  <!-- <div style="height: 100vh">
+    <div class="flex-center flex-column">
+      <h1 class="text-hide animated fadeIn mb-4" style="background-image: url('https://mdbootstrap.com/img/logo/mdb-transparent-250px.png'); width: 250px; height: 90px;">MDBootstrap</h1>
+      <h5 class="animated fadeIn mb-3">Thank you for using our product. We're glad you're with us.</h5>
+      <p class="animated fadeIn text-muted">MDB Team</p>
+    </div>
+  </div> -->
+
+  <div class="jumbotron-fluid" style="background: #000; padding: 4px;">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h5 class="text-white animated fadeIn mt-2" style="font-family: Antipasto;">
+            Opening : &nbsp;&nbsp;Mon - Sat 
+            <span class="text-danger" style="font-family: Augustus;">
+              07:00 a.m - 09:00 p.m
+            </span>
+          </h5>
+        </div>
+        <div class="col-md-6">
+          <h5 class="text-white animated fadeIn mt-2 d-flex justify-content-end" style="font-family: Antipasto;">
+            Book Your Food :   
+            <span class="text-danger" style="font-family: Augustus;">
+              &nbsp;&nbsp;9045935442
+            </span>
+          </h4>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Navbar Start-->
+  <div class="jumbotron-fluid">
+    <!--Navbar-->
+<nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container">
+  <!-- Navbar brand -->
+  <a href="index.html" class="navbar-brand">
+    <!-- <h3 class="mt-2">Food Buddy</h3> -->
+    <img src="img/logo/logo.png" class="img-fluid" />
+  </a>
+
+  <!-- Collapse button -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- Collapsible content -->
+  <div class="collapse navbar-collapse" id="basicExampleNav">
+
+      <!-- Links -->
+      <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+              <a class="nav-link" href="index.html">HOME
+                  <span class="sr-only">(current)</span>
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="about.html">ABOUT US</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="service.html">SERVICE</a>
+          </li>
+
+          <!-- Dropdown -->
+          <!-- <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">BLOG</a>
+              <div class="dropdown-menu dropdown-danger" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+          </li> -->
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">
+              CONTACT US
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="login.html" class="nav-link">
+              LOGIN
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">
+              <i class="fa fa-search"></i>
+            </a>
+          </li>
+      </ul>
+      <!-- Links -->
+
+      <!-- <form class="form-inline">
+          <div class="md-form my-0">
+              <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+          </div>
+      </form> -->
+  </div>
+  <!-- Collapsible content -->
+
+</div>
+</nav>
+<!--Navbar-->
+  </div>
+  <!--Navbar Start-->
+
+   <!-- Carousel Slider -->
+   <div id="demo" class="carousel slide" data-ride="carousel">
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+    </ul>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/banner/img-1.jpg" alt="Makkhan Chap" class="img-fluid" />
+        <div class="carousel-caption" style="text-align: none; top:12%;">
+          <div class="text-success mob-text" style="font-size: 60px;
+          font-family: Babiole;">The Best Comfort food will<br />
+            always be greens, cornbread,<br />
+            and <span style="font-family:banana super; color: #f0f732;">fried chicken.</span></div>
+            <button type="button" class="mob-button btn btn-outline-warning mt-3">View More</button>
+        </div>   
+      </div>
+      <div class="carousel-item">
+        <img src="img/banner/img-1.jpg" alt="Makkhan chap" class="img-fluid" />
+        <div class="carousel-caption" style="text-align: none; top:12%;">
+          <div class="text-success mob-text" style="font-size: 60px;
+          font-family: Babiole;">The Best Comfort food will<br />
+            always be greens, cornbread,<br />
+            and <span style="font-family:banana super; color: #f0f732;">fried chicken.</span></div>
+            <button type="button" class="mob-button btn btn-outline-warning mt-3">View More</button>
+        </div>   
+      </div>
+      <div class="carousel-item">
+        <img src="img/banner/img-1.jpg" alt="Makkhan chap" class="img-fluid" />
+        <div class="carousel-caption" style="text-align: none; top:12%;">
+          <div class="text-success mob-text" style="font-size: 60px;
+          font-family: Babiole;">The Best Comfort food will<br />
+            always be greens, cornbread,<br />
+            and <span style="font-family:banana super; color: #f0f732;">fried chicken.</span></div>
+            <button type="button" class="mob-button btn btn-outline-warning mt-3">View More</button>
+        </div>   
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  </div>
+  
+  <!-- Carousel Slider -->
+
+  <div class="jumbotron-fluid mb-3">
+    <div class="container">
+      <h2 class="text-center py-5">About Us</h2>
+
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-xs-12">
+          <img style="width: 800px; height: 320px;" src="data:image/jpeg;base64,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" class="img-fluid" />
+        </div>
+        <div class="col-lg-6 col-md-6 col-xs-12">
+          <h3>Food Buddy</h3>
+          <p></p>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+              when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+               It has survived not only five centuries, but also the leap into electronic typesetting, remaining
+                essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets 
+                containing Lorem Ipsum passages, and more recently with desktop publishing 
+            software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+            <button type="button" class="btn btn-outline-primary">View More</button>
+        </div>
+      </div>
+
+      
+<div class="container my-5">
+  <h1>ABOUT US</h1>
+  <p>The blockquote element is used to present content from another source:</p>
+  <blockquote class="blockquote">
+    <p>For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.</p>
+    <footer class="blockquote-footer">From WWF's website</footer>
+  </blockquote>
+</div>
+
+
+    </div>
+  </div>
+
+  <div class="jumbotron-fluid">
+    <img src="img/app/app.jpg" class="img-fluid" style="margin-bottom: -24px; margin-top: 20px;"/>
+  </div>
+  <div class="jumbotron-fluid" style="background: #2e2e2e; padding-top: 20px;">
+    <!-- Footer -->
+    <footer class="page-footer pt-4 mt-4">
+
+      <!-- footer link -->
+        <div class="container text-center text-md-left">
+
+          <!-- Grid Row -->
+          <div class="row">
+
+            <!-- Grid Column -->
+            <div class="col-md-3 mt-md-0 mt-3">
+              
+              <!-- Content -->
+              <!-- <h1 style="font-family: 3D LET BRK; color:#ffa800;">F<span style="font-family: Beyond Sky;">ood</span> <span style="font-family: Beyond Sky;">Buddy</span></h1> -->
+              <img src="img/logo/logo.png" class="img-fluid" />
+              <p></p>
+              
+              <p>Here you can use rows and columns here to organize your footer content.
+                Here you can use rows and columns here to organize your footer content.
+                Here you can use rows and columns here to organize your footer content.
+              </p>
+              <!-- Content -->
+
+              <!-- Social Icon -->
+              <ul class="nav">
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">
+                      <i class="fa fa-facebook text-white"></i>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">
+                      <i class="fa fa-twitter text-white"></i>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">
+                      <i class="fa fa-youtube text-white"></i>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">
+                      <i class="fa fa-instagram text-white"></i>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">
+                      <i class="fa fa-google-plus text-white"></i>
+                    </a>
+                  </li>
+                </ul>
+              <!-- Social Icon -->
+
+            </div>
+            <!-- Grid Column -->
+
+            <!-- Horizontal line-->
+            <hr class="pb-3 w-100 clearfix d-md-none" />
+            <!-- Horizontal line-->
+
+            <!-- Grid Column -->
+            <div class="col-md-9 mb-md-0 mb-3">
+              
+              <!-- Grid Row -->
+                <div class="row">
+                  
+                  <!-- Grid Column -->
+                    <div class="col-md-3 md-mb-0 mb-3">
+                      <!-- Heading -->
+                      <h5 class="text-danger">MY ACCOUNT</h5>
+                      <!-- Heading -->
+
+                      <!-- footer list -->
+                        <ul class="navbar-nav">
+                          <li class="nav-item">
+                            <a href="" class="nav-link">
+                              HOME
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a href="#" class="nav-link">
+                              ABOUT US
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a href="#" class="nav-link">
+                              SERVICE
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a href="#" class="nav-link">
+                              CONTACT US
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a href="#" class="nav-link">
+                              LINK
+                            </a>
+                          </li>
+                        </ul>
+                        <!-- footer list -->
+                        
+                    </div>
+
+                    <div class="col-md-3 md-mb-0 mb-3">
+                      <!-- Heading -->
+                      <h5 class="text-danger">SERVICE</h5>
+                      <!-- Heading -->
+
+                      <!-- footer list -->
+                        <ul class="navbar-nav">
+                          <li class="nav-item">
+                            <a href="#" class="nav-link">
+                              SPECIAL
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a href="#" class="nav-link">
+                              NEW PRODUCTS
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a href="#" class="nav-link">
+                              BEST SELLERS
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a href="#" class="nav-link">
+                              PERSONAL INFO
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a href="#" class="nav-link">
+                              ORDER
+                            </a>
+                          </li>
+                        </ul>
+                        <!-- footer list -->
+                        
+                    </div>
+
+                    <div class="col-md-3 md-mb-0 mb-3">
+                      <!-- Heading -->
+                      <h5 class="text-danger">USEFUL LINK</h5>
+                      <!-- Heading -->
+
+                      <!-- footer list -->
+                        <ul class="navbar-nav">
+                          <li class="nav-item">
+                            <a href="#" class="nav-link">
+                              TERMS & CONDITION
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a href="#" class="nav-link">
+                              PRIVACY & POLICY
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a href="#" class="nav-link">
+                              ABOUT OUR SHOP
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a href="#" class="nav-link">
+                              CREDIT SLIP
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a href="#" class="nav-link">
+                              ADDRESS
+                            </a>
+                          </li>
+                        </ul>
+                        <!-- footer list -->
+                        
+                    </div>
+
+
+                    <div class="col-md-3 md-mb-0 mb-3">
+                      <!-- Heading -->
+                      <h5 class="text-danger">CONTACT US</h5>
+                      <!-- Heading -->
+
+                      <!-- footer list -->
+                        <ul class="navbar-nav">
+                          <li class="nav-item">
+                            <a href="#" class="nav-link">
+                              <i class="fa fa-map-marker mr-2"></i>
+                              Govindpuri Modinagar
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a href="#" class="nav-link">
+                              <i class="fa fa-phone mr-2"></i>
+                              <span>9045935442</span>
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a href="#" class="nav-link">
+                              <i class="fa fa-envelope mr-2"></i>
+                              abcs@yahoo.com
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a href="#" class="nav-link">
+                              <i class="fa fa-dedent"></i>
+                              www.ourfoodbuddy.com
+                            </a>
+                          </li>
+                        </ul>
+                        <!-- footer list -->
+                        
+                    </div>
+                  <!-- Grid Column -->
+
+                </div>
+              <!-- Grid Row -->
+
+            </div>
+            <!-- Grid Column -->
+
+          </div>
+          <!-- Grid Row -->
+
+        </div>
+      <!-- footer link -->
+
+      <!-- Copyright -->
+      
+      <hr class="clearfix bg-white mb-md-0"/>
+      <div class="footer-copyright py-3">
+        <div class="container ">
+          &copy; 2020 Copyright:
+          <a href="#" class="text-danger">Food Buddy</a>
+          <span class="text-light float-right"><a href="#">Privacy & Policy</a></span>
+          <span class="text-light float-right mr-5"><a href="#">Terms & Conditions.</a></span>
+        </div>
+      </div>
+      <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+
+  </div>
+
+  <!-- End your project here-->
+
+  <!-- jQuery -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Your custom scripts (optional) -->
+  <script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>
